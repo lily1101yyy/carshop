@@ -24,7 +24,7 @@ span{
 }
 
 .navigation {
-    background-color: black;
+    background-color: grey;
     letter-spacing: 5px;
     color: white;
     padding: 8px;
@@ -33,8 +33,10 @@ span{
 }
 
 .navigation:hover{
-    background-color: cadetblue;
+    background-color: white;
+    color: darkgray
 }
+
 
 #firstname:focus{
     background-color: burlywood;
@@ -58,7 +60,7 @@ ol li{
     text-align: center;
     font-size: 35px;
     color: white;
-    background-color: yellowgreen;
+    background-color: grey;
     background-repeat: no-repeat;
     background-position: normal;
     background-attachment: local;
@@ -73,7 +75,7 @@ table　{
 #container {
     width: 80%;
     margin: 0 auto;
-    background-color: honeydew;
+    background-color: white;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -83,12 +85,13 @@ table　{
     width: 300px;
     background-color: yellow;
     margin: 0 auto;
-    border: 10px black solid;
+    border: 10px white solid;
     margin-top: 20px;
     background-size: 300px 300px;
     display: inline-block;
     padding: 10px;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 #office1 {
