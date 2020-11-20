@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+
+<body>
+    <div id="container">
+    <h1 id="website_header">Carshop Company</h1>
+    <h2>Contact us</h2>
+    <hr>
+    <a class="navigation" href="index.html">Home</a>
+    <a class="navigation" href="products.html">Products</a>
+    <a class="navigation" href="about_us.html">About us</a>
+    <a class="navigation" href="contact_us.html">Contact us</a>
+    <hr>
+    <form>
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" name="firstname" placeholder="firstname">
+
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" placeholder="lastname">
+        <br>
+        <label for="account password">Password</label>
+        <input type="password" name="password" placeholder="password">
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" placeholder="password">
+        <br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" min="0" max="130">
+        <br>
+
+        <label for="email_address">Email address</label>
+        <input type="email" name="email_address" placeholder="Email address">
+        <br>
+
+        <label for="message">Message</label>
+        <textarea name="message">This is the default message</textarea>
+       
+        <br>
+        <label for="services">services interested in</label>
+        <br>
+        <input type="radio" name="services" value="car_units" id="car_units">
+        <label for="car_units">Car Units</label>
+        <br>
+        <input type="radio" name="services" value="car_services" id="car_services">
+        <label for="car_units">Car Services</label>
+        <br>
+        <input type="radio" name="services" value="car_rentals" id="car_rentals">
+        <label for="car_units">Car Rentals</label>
+
+        <br>
+        Where did you encounter our brand?
+        <br>
+        <input type="checkbox" name="advertisement" value="Internet" id="Internet">
+        <label for="Internet">Internet</label>
+        <br>
+        <input type="checkbox" name="advertisement" value="radio" id="radio">
+        <label for="radio">Radio</label>
+        <br>
+        <input type="checkbox" name="advertisement" value="television" id="television">
+        <label for="television">television</label>
+        <br>
+        <input type="checkbox" name="advertisement" value="newspaper" id="newspaper">
+        <label for="newspaper">newspaper</label>
+        <br>
+    
+
+    <label for="country_of_origin">Country of origin</label>
+    <select id="country_of_origin">
+        <option value="Australia">Australia</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Canada">Canada</option>
+        <option value="Equador">Equador/option>
+        <option value="Japan">Japan/option>
+        <option value="phillipines">Phillipines</option>
+    </select>
+    <br>
+
+        <label for="countries_visited">Countries visited:</label>
+    <select id="countries_visited" multiple>
+        <option value="Australia">Australia</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Canada">Canada</option>
+        <option value="Equador">Equador</option>
+        <option value="Japan">Japan</option>
+        <option value="phillipines">Phillipines</option>
+    </select>
+    <br>
+
+    <label for="file_upload">file_upload</label>
+    <input type="file" id="file_upload">
+    <br>
+
+    <button type="submit" value="submit">submit</button>
+    <input type="image" src="images/submit.dms" height="100px" alt="submit buttom">
+    <input type="button" value="click me">
+    <br>
+    </form>
+
+</body>
+</div>
+</html>

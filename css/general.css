@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    background-color: violet;
+}
+
+#website_header {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: normal;
+    text-align: center;
+    background-color: darkgray;
+    text-shadow: 2px 3px grey ;
+    /*text-indent: 20px; */
+    letter-spacing: 1px ;
+    word-spacing: 3px;
+    width: 37px;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: darkgray;
+    letter-spacing: 5px;
+    color: white;
+    padding: 8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigation:hover{
+    background-color: cadetblue;
+}
+
+#firstname:focus{
+    background-color: burlywood;
+}
+ul li{
+    list-style: square;
+    list-style-position: inside;
+
+
+    
+}
+
+ol li{
+    list-style-type: lower-roman;
+}
+
+#about_us {
+    background-image: url("../images/skyscraper.jpg") ;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    background-position: normal;
+    background-attachment: local;
+    
+}
+
+table　{
+    empty-cells: show ;
+    border-collapse: collapse ;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: honeydew;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.office_picture{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin: 0 auto;
+    border: 10px black solid;
+    margin-top: 20px;
+    background-size: 300px 300px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#office1 {
+    background-image: url("../images/office1.jpg");
+}
+#office2 {
+    background-image: url("../images/office2.jpg");
+}
+#office3 {
+    background-image: url("../images/office3.jpg");
+}

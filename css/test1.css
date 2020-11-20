@@ -1,0 +1,24 @@
+
+<style>
+
+.box {
+height: 100px;
+width: 100px;
+margin: 0 auto;
+margin-bottom: 30px;
+border: 20px dashed white;
+}
+
+#square1 {
+    background-color: blue;
+}
+#square2 {
+    background-color: green;
+}
+#square3 {
+    background-color: red;
+}
+#square4 {
+    background-color: brown;
+}
+</style>
